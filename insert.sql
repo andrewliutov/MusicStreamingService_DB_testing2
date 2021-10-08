@@ -153,6 +153,10 @@ INSERT INTO track(name, duration, album_id)
 
 INSERT INTO track(name, duration, album_id)
     VALUES('I was not included in any compilation :sad_smiley:', 300, 1);
+    
+    
+INSERT INTO track(name, duration, album_id)
+    VALUES('another short track', 1, 1);
 
 
 ------------------------------------------------------------------------------
