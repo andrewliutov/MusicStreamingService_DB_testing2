@@ -13,11 +13,10 @@ SELECT album.name, ROUND(AVG(track.duration)) FROM album
 	GROUP BY album.name;
 
 
-SELECT artist.name FROM artist
+SELECT DISTINCT artist.name FROM artist
     JOIN artist_album ON artist_id = artist.id
 	JOIN album ON album_id = album.id
 	WHERE album.year != 2020
-	GROUP BY artist.name
 
 
 SELECT compilation.name FROM compilation
